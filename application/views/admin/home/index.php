@@ -6,7 +6,7 @@
     <div class="main-content">
     	<section class="section">
         	<div class="section-body">
-            <!-- add content here -->
+            	<h1>Home</h1>
           	</div>
         </section>
     </div>      
