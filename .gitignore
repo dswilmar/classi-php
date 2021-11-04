@@ -1,5 +1,6 @@
 .DS_Store
 Recursos/
+uploads/usuarios
 
 application/cache/*
 !application/cache/index.html
