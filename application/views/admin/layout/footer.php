@@ -15,5 +15,10 @@
   <script src="<?php echo base_url('public/admin/assets/js/scripts.js') ?>"></script>
   <!-- Custom JS File -->
   <script src="<?php echo base_url('public/admin/assets/js/custom.js') ?>"></script>
+  <?php if (isset($scripts)): ?>
+    <?php foreach ($scripts as $script): ?>
+      <script src="<?php echo base_url($script) ?>"></script>
+    <?php endforeach ?>
+  <?php endif ?>
 </body>
 </html>
